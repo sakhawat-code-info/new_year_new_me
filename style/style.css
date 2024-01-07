@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* common code  */
+.common_btn {
+    margin-top: 30px;
+    border-radius: 5px;
+    background: #F15B22;
+    padding: 11px 12px;
+    border: none;
+    color: #FFF;
+    text-align: right;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+
+/* header section style  */
+.header_bg {
+    background-image: url("../images/banner/banner1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    text-align: right;
+    margin-bottom: 100px;
+}
+
+.header_bg .header_container {
+    padding: 100px 130px;
+    width: 363px;
+    float: right;
+}
+
+.header_bg .header_container .header_title {
+    padding: 10px;
+}
+
+.header_bg .header_container .header_discription {
+    text-align: right;
+}
+
+/* main failur section  */
+.main_section{
+    max-width: 1050px;
+    margin: 0 auto;
+}
+.main_section .failur_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.main_section .failur_container .failur_img img {
+    height: 70vh;
+    margin-right: 94px;
+}
+.main_section .failur_container .failur_content {
+    padding-right: 30px;
+}
+.main_section .failur_container .failur_content .failur_title {
+    padding: 20px 0;
+    width: 200px;
+}
+.main_section .failur_container .failur_content .failur_discription {
+    width: 400px;
+    margin-bottom: 20px;
+}
+.main_section .failur_container .failur_content ul {
+    padding: 0;
+    margin: 0;
+}
+.main_section .failur_container .failur_content ul li {
+    list-style: none;
+}
+
+/* plan item start  */
+
+.my_plans{
+    margin-bottom: 120px;
+}
+.my_plans > h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.my_plans .my_plan_container{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    justify-content: space-between;
+}
+.my_plans .my_plan_container .plan_items{
+    text-align: center;
+}
+.my_plans .my_plan_container .plan_items img{
+    margin-bottom: 20px;
+}
+.my_plans .my_plan_container .plan_items .plan_item_body{
+    margin-bottom: 20px;
+}
